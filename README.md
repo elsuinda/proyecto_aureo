@@ -194,22 +194,52 @@ proyecto_aureo/
 
 ## Compilar a Ejecutable (.exe)
 
-Para crear un archivo .exe independiente:
+SEPTEM puede compilarse a un archivo `.exe` independiente que no requiere Python instalado.
+
+### Opción 1: Usar el Script de Compilación (Recomendado) ⭐
 
 ```powershell
-# Asegúrate de tener pyinstaller instalado
-pip install pyinstaller
-
-# Ejecutar el script de compilación
 .\build_exe.bat
 ```
 
-O manualmente:
+**El script automáticamente:**
+- ✅ Detecta si PyInstaller está instalado (lo instala si falta)
+- ✅ Busca un icono personalizado (opcional)
+- ✅ Compila la aplicación
+- ✅ Crea el ejecutable en `dist/SEPTEM.exe`
+
+### Opción 2: Compilación Manual
+
 ```bash
-pyinstaller --onefile --windowed --icon=assets/icon.ico app.py
+# Sin icono personalizado
+pyinstaller --onefile --windowed --name "SEPTEM" app.py
+
+# Con icono personalizado
+pyinstaller --onefile --windowed --icon=assets/icono.ico --name "SEPTEM" app.py
 ```
 
-El ejecutable estará en: `dist/app.exe`
+### Resultado
+
+El ejecutable estará en: `dist/SEPTEM.exe`
+
+**Características del ejecutable:**
+- ✅ No requiere Python instalado
+- ✅ No requiere carpeta del proyecto
+- ✅ Puede compartirse con otros usuarios
+- ✅ Tamaño: ~50-100 MB (incluye Python empaquetado)
+
+### Personalizar el Icono
+
+1. Prepara un archivo `.ico` (256x256 píxeles recomendado)
+2. Guárdalo en: `assets/icono.ico`
+3. Ejecuta: `.\build_exe.bat`
+
+Para crear un icono: [Convertidor Online](https://icoconvert.com/)
+
+### 📖 Guía Detallada
+
+Para instrucciones completas, solución de problemas y opciones avanzadas, consulta:
+**[COMPILACION.md](COMPILACION.md)** ← Haz clic aquí
 
 ## Configuración de Colores
 
