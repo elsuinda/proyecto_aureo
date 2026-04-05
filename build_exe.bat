@@ -42,15 +42,15 @@ echo.
 echo [*] Compilando aplicación...
 echo.
 
-REM Compilan el ejecutable
-pyinstaller ^
+REM Compilar el ejecutable usando python -m PyInstaller
+python -m PyInstaller ^
     --noconfirm ^
     --onefile ^
     --windowed ^
     %ICON_PARAM% ^
     --name "%APP_NAME%" ^
     --distpath=".\dist" ^
-    --buildpath=".\build" ^
+    --workpath=".\build" ^
     --specpath="." ^
     app.py
 
