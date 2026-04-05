@@ -15,6 +15,7 @@ build/
 dist/
 *.egg-info/
 *.egg
+*.spec
 
 # IDE
 .vscode/
@@ -30,6 +31,9 @@ app_audit.log
 
 # Archivos Excel generados (opcional, descomentar si quieres compartirlos)
 # *.xlsx
+
+# Assets personalizados (usuario debe agregar su propio icono)
+assets/icono.ico
 
 # Archivos temporales
 *.tmp
