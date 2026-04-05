@@ -1,0 +1,24 @@
+Crear un logo minimalista y elegante para una aplicación de escritorio de notas cifradas.
+
+Concepto central:
+Un compás áureo o compás geométrico inspirado en la proporción áurea.
+
+Estilo visual:
+- fondo negro puro
+- líneas y trazos principales en fucsia intenso
+- estética tecnológica, limpia, sobria y moderna
+- aspecto premium, elegante, geométrico y minimalista
+- sin texto
+- sin fondo recargado
+- sin efectos 3D exagerados
+- composición centrada
+- alto contraste
+- apto para interfaz oscura
+- sensación de precisión matemática y criptográfica
+
+Entrega deseada:
+- formato cuadrado
+- alta resolución
+- ideal para usar como logo principal de una aplicación
+- el compás debe ser claramente reconocible
+- puede incluir una insinuación visual de espiral o proporción áurea, pero sin sobrecargar

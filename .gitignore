@@ -1,0 +1,46 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+ENV/
+
+# Archivos compilados
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribuciones
+build/
+dist/
+*.egg-info/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+app_audit.log
+
+# Archivos Excel generados (opcional, descomentar si quieres compartirlos)
+# *.xlsx
+
+# Archivos temporales
+*.tmp
+*.bak
+*.backup
+
+# Sistemas operativos
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Configuración local
+.env
+.env.local

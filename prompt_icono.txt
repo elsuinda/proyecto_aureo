@@ -1,0 +1,22 @@
+Crear un icono minimalista para aplicación de escritorio.
+
+Concepto central:
+Un compás áureo geométrico simplificado.
+
+Estilo visual:
+- fondo negro
+- símbolo en fucsia intenso
+- trazos simples, limpios y legibles
+- diseño centrado
+- sin texto
+- muy claro incluso en tamaño pequeño
+- apariencia elegante, matemática, tecnológica y moderna
+- alto contraste
+- pensado específicamente para convertirse en icono .ico de Windows
+
+Requisitos visuales:
+- formato 1:1
+- muy simple
+- pocas líneas
+- que siga viéndose bien en tamaños pequeños como 16x16, 32x32 y 64x64
+- no usar detalles finos excesivos
