@@ -52,6 +52,9 @@ python -m PyInstaller ^
     --distpath=".\dist" ^
     --workpath=".\build" ^
     --specpath="." ^
+    --hidden-import=openpyxl ^
+    --hidden-import=logging ^
+    --collect-all=openpyxl ^
     app.py
 
 if errorlevel 1 (
